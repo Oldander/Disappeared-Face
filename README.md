@@ -12,6 +12,7 @@ The attack is implemented in **adversarial_patch_gen_4models.py** source file, i
 1. Print the **Checkerboards.docx** with a laser printer and then post them on your face.
 2. Take pictures under different conditions (light, distance).
 3. Set images (I use 8 face images of myself):
+
 Use pixels to calibrate the mask area.
 4. Specify patches parameters;
 5. Specify losses(You can add any loss function defined by different face detection models to the total loss function,we select all four models' loss functions here).
