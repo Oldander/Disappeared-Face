@@ -11,7 +11,7 @@ Face detection is a classical problem in the field of computer vision. It has si
 The attack is implemented in **adversarial_patch_gen_4models.py** source file, in order to train your own patches to attack commercial Black-Box face detection models in the real world, follow the guideline:
 1. Print the **Checkerboards.docx** with a laser printer and then post them on your face.
 2. Take pictures under different conditions (light, distance).
-3. Set images (I use 8 face images of myself):
+3. Set images (7 - 8 face images of yourself):
 Use pixels to calibrate the mask area.
 4. Specify patches parameters;
 5. Specify losses(You can add any loss function defined by different face detection models to the total loss function,we select all four models' loss functions here).
