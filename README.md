@@ -1,4 +1,4 @@
-# Disappeared-Face
+
 
 # Disappeared Face: A Physical Adversarial Attack Method on Black-Box Face Detection Models
 
