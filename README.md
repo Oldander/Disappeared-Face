@@ -15,7 +15,7 @@ The attack is implemented in **adversarial_patch_gen_4models.py** source file, i
 Use pixels to calibrate the mask area;
 4. Specify losses(You can add any loss function defined by different face detection models to the total loss function,we select all four models' loss functions here);
 5. set training epochs;
-6. run **adversarial_patches_gen_4models.py** and obtain **left_cheek.png** and **right_cheek.png** in out_imgs.
+6. run **adversarial_patches_gen_4models.py** to train your own patches(you can find **left_cheek.png** and **right_cheek.png** in out_imgs).
 7. Print the **left_cheek.png** and **right_cheek.png** with a laser printer  and then post them on your face.
 8. Sit in front of the camera and try to escape the black-box face-detection model in the real world.
 
